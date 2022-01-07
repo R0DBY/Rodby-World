@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Le titre de la page -->
+    <title>HTML de C MORT</title>
+    <!-- Incone de l'onglet -->
+    <link rel="shortcut icon" href="logo.html.png" />
+  </head>
+
+  <body>
+    <header>
+      <h1><span>&#9758;</span><strong>ProutLand</strong></h1>
+      <p>
+        Texte basique, <em>Voici un texte en Italique</em>.
+        <strong>Et un texte en gras</strong>.
+        <span>L'élément span ne revient pas à la ligne</span>
+      </p>
+      <p>
+        Le serv de Rodby le roi des patates!
+      </p>
+    </header>
+    <section>
+      <div>
+        <h2>Photos - Titre H2</h2>
+        <img src="OUIOUI.jpg" height="200" alt="image-paysage" />
+      </div>
+      <div>
+        <h3>Listes des débiles</h3>
+        <ol>
+          <li>Enzo Score : 4521</li>
+          <li>Miguel Score : 8</li>
+          <li>Hugo Score : Front de 15kmsur sa pp</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Tableau des taille de penis
+        </h4>
+        <table border="1" width="50%">
+          <!-- Légende -->
+          <caption>
+            Bites du Monde
+          </caption>
+          <!-- En-tete -->
+          <thead>
+            <tr>
+              <th>Pays</th>
+              <th>Taille</th>
+            </tr>
+          </thead>
+          <!-- corps du tableau-->
+          <tbody>
+            <tr>
+              <td>Les chinois</td>
+              <td>2 Pouces</td>
+            </tr>
+            <tr>
+              <td>Afrique (Pour moi c un pays)</td>
+              <td>30 M</td>
+            </tr>
+            <tr>
+              <td>Jules</td>
+              <td>51546644 Km</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h5><span>&#9758;</span> Liens - Titre H5</h5>
+        <a href="https://htmlcheatsheet.com/" target="_blank"
+          >HTML Cheat Sheet</a
+        >
+        <br />
+        <a
+          href="https://www.toptal.com/designers/htmlarrows/symbols/"
+          target="_blank"
+          >Icones en Html</a
+        >
+      </div>
+      <div>
+        <h6>Vidéo - Titre H6</h6>
+        <video src="Video.mp4" height="150" autoplay loop muted></video>
+      </div>
+    </section>
+    <br />
+    <!-- Formulaire -->
+    <section>
+      <h2>Formulaire</h2>
+      <form action="/action.php" method="post">
+        <label for="name">Truc </label
+        ><input id="name" placeholder="Entrez votre truc" /><br />
+        <label for="age">Age</label>
+        <input
+          id="age"
+          type="number"
+          min="0"
+          max="250"
+          step="1"
+          value="18"
+        /><br />
+
+        <!-- Input select -->
+        <label for="gender">Genre</label>
+        <select id="gender">
+          <option selected value="homme">Homme</option>
+          <option value="femme">Femme</option>
+          <option value="un gros fdp">UN GROS FDP</option></select
+        ><br />
+
+        <!-- Input radio -->
+        <div>
+          <input type="radio" name="type" checked id="human" />
+          <label for="human">Humain</label>
+
+          <input type="radio" name="type" id="dog" />
+          <label for="dog">Chien</label>
+
+          <input type="radio" name="type" id="cat" />
+          <label for="cat">Chat</label>
+        </div>
+
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Entrez votre trur a écrire ici"
+        ></textarea
+        ><br />
+
+        <!-- Input Checkbox -->
+        <label><input type="checkbox" />Accepter rien du tout</label>
+        <input type="submit" value="Valider" />
+      </form>
+    </section>
+    <br />
+    <!-- envoie de fichier -->
+    <footer>
+      <a href="trucmail@gmail.com">Une adresse mail</a><br />
+      <a href="notice.txt" download="nom-du-fichier">Télécharger la notice</a>
+    </footer>
+  </body>
+</html>
